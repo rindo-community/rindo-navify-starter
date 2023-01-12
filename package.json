@@ -1,0 +1,23 @@
+{
+  "name": "rindo-starter-project-name",
+  "private": true,
+  "version": "0.0.1",
+  "description": "Rindo Navify App Starter",
+  "scripts": {
+    "build": "rindo build",
+    "start": "rindo build --dev --watch --serve",
+    "test": "rindo test --spec --e2e",
+    "test.watch": "rindo test --spec --e2e --watchAll",
+    "generate": "rindo generate"
+  },
+  "devDependencies": {
+    "@navify/core": "^6.2.1",
+    "@rindo/core": "^2.17.3",
+    "@types/jest": "^27.5.2",
+    "jest": "^27.5.1",
+    "jest-cli": "^27.5.1",
+    "navicons": "^6.0.2",
+    "puppeteer": "^16.2.0"
+  },
+  "license": "MIT"
+}

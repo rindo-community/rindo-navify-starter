@@ -1,0 +1,38 @@
+/*
+  Global App CSS (Document Level Styles)
+  ----------------------
+  Use this file for styles that should be applied to all components.
+  For example, "font-family" within the "body" selector is a CSS property
+  most apps will want applied to all components.
+
+  Any global CSS variables should also be applied here.
+*/
+
+/*
+  The imports below are needed to include our light dom css for global styles such as fonts and colors.
+  You can comment out any of these imports if you do not need that css. For example, if you have your own
+  global font family css then you can comment out the typography.css import.
+*/
+
+/** Core CSS required for navify components to work property */
+@import '~@navify/core/css/core.css';
+
+/** Basic CSS for apps built with Navify */
+@import '~@navify/core/css/normalize.css';
+@import '~@navify/core/css/structure.css';
+@import '~@navify/core/css/typography.css';
+
+/** Optional CSS utils that can be commented out */
+@import '~@navify/core/css/padding.css';
+@import '~@navify/core/css/float-elements.css';
+@import '~@navify/core/css/text-alignment.css';
+@import '~@navify/core/css/text-transformation.css';
+@import '~@navify/core/css/flex-utils.css';
+
+/*
+  The CSS Variables below can be used to theme your app.
+  For more info on CSS variables check out:
+  https://developer.mozilla.org/en-US/docs/Web/CSS/Using_CSS_variables
+*/
+
+@import './variables.css';
