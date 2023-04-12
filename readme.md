@@ -1,3 +1,5 @@
+⚠ DEPRECATED ⚠
+
 # Rindo Navify App Starter
 
 Navify PWA starter with tabs layout and routes.
